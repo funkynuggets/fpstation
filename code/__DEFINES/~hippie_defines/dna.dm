@@ -1,1 +1,1 @@
-#define CLUWNEMUT	/datum/mutation/human/cluwne
+#define CLUWNEMUT "Cluwne"
