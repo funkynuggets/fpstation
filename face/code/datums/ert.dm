@@ -54,7 +54,7 @@
 	role = "Debt Collector"
 
 /datum/antagonist/ert/pizza
-	outfit = /datum/outfit/ert/debt
+	outfit = /datum/outfit/ert/pizza
 	role = "Pizza Delivery"
 
 /datum/ert/deathkorp
