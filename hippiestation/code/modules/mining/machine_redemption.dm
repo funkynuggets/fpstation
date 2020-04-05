@@ -207,7 +207,6 @@
 		output_dir = turn(output_dir, -90)
 		to_chat(user, "<span class='notice'>You change [src]'s I/O settings, setting the input to [dir2text(input_dir)] and the output to [dir2text(output_dir)].</span>")
 		return TRUE
-		. = ..()
 	else if (istype(I))
 		to_chat(user, "<span class='notice'>You update [src] with the multitool's buffer.</span>")
 		materials?.silo = I.buffer
