@@ -3,7 +3,7 @@
 	name = "Bluespace Septic Tank"
 	desc = "This little number has saved the bacon of Central Command Plumbers everywhere. By utilizing advanced Bluespace Technology, almost all the dangerous and toxic waste from Nanotrasen stations ends up teleported to this little device. It helps keep costs down, and really helps Central Command deal with Curry Friday. Do not consume or ingest."
 	icon = 'face/icons/obj/objects.dmi'
-	list/reagent_ids = /datum/reagent/drug/pupupipi
+	reagent_id = /datum/reagent/drug/pupupipi
 	icon_state = "brown"
 	use_reagent_icon = TRUE
 
