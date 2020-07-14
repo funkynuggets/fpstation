@@ -40,7 +40,7 @@
 	ears = /obj/item/radio/headset/headset_cent
 	back = /obj/item/storage/backpack/satchel
 	r_pocket = /obj/item/pda/heads
-	id = /obj/item/card/id
+	id = /obj/item/card/id/ert // I don't know how to give specific access so fuck it lol
 
 
 //	backpack_contents = list(/effect/spawner/lootdrop/pizzaparty=7) // i was hoping this would work so they had a small chance to get weapons but i guess not, will admin spawn in their equipment instead
