@@ -319,12 +319,12 @@
 		if(1 to 20)
 			high_message = pick("Holy shit, I feel so fucking happy...", "What the fuck is going on?", "Where am I?")
 			if(prob(15))
-				H.dna.add_mutation(SMILE)
+				//H.dna.add_mutation(SMILE)
 			else if(prob(30)) //blurry eyes and talk like an idiot
 				H.blur_eyes(2)
 				H.derpspeech++
 		if(31 to INFINITY)
-			if(prob(20) && (H.mobility_flags & MOBILITY_MOVE) && !ismovableatom(H.loc))
+			if(prob(20) && (H.mobility_flags & MOBILITY_MOVE) && !ismovable(H.loc))
 				step(H, pick(GLOB.cardinals))
 			if(H.client)
 				sounds = H.client.SoundQuery()

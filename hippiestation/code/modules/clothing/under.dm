@@ -16,7 +16,7 @@
 /obj/item/clothing/under/hippie/cluwne/equipped(mob/living/carbon/user, slot)
 	if(!ishuman(user))
 		return
-	if(slot == SLOT_W_UNIFORM)
+	if(slot == ITEM_SLOT_ICLOTHING)
 		var/mob/living/carbon/human/H = user
 		H.dna.add_mutation(CLUWNEMUT)
 	return ..()
@@ -63,3 +63,19 @@
 /obj/item/clothing/under
 	random_sensor = FALSE
 	sensor_mode = SENSOR_COORDS
+
+/obj/item/clothing/under/color/red/gang
+	name = "Blood gang clothing"
+	desc = "Official clothing of the Bloods."
+
+/obj/item/clothing/under/color/blue/gang
+	name = "Crip gang clothing"
+	desc = "Official clothing of the Crips"
+
+/obj/item/clothing/under/suit_jacket/burgundy/gang
+	name = "Godfather suit"
+	desc = "A fancy suit worn by the leader of the Italian Mafia."
+
+/obj/item/clothing/under/suit_jacket/really_black/gang
+	name = "Mafioso suit"
+	desc = "A suit worn by members of the Italian Mafia."
