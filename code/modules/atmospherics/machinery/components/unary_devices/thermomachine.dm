@@ -98,7 +98,7 @@
 	if(node)
 		node.atmosinit()
 		node.addMember(src)
-	build_network()
+	SSair.add_to_rebuild_queue(src)
 	return TRUE
 
 /obj/machinery/atmospherics/components/unary/thermomachine/ui_status(mob/user)
@@ -152,7 +152,7 @@
 				target = text2num(target)
 				. = TRUE
 			if(.)
-				target_temperature = CLAMP(target, min_temperature, max_temperature)
+				target_temperature = clamp(target, min_temperature, max_temperature)
 				investigate_log("was set to [target_temperature] K by [key_name(usr)]", INVESTIGATE_ATMOS)
 
 	update_icon()
