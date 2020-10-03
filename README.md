@@ -94,7 +94,7 @@ recompile the game.  Once you start the server up again, you should be running
 the new version.
 
 ## MAPS
-Hippie Station currently comes equipped with five maps.
+Spacepunch currently comes equipped with five maps.
 * [Hippie BoxStation (default)](https://tgstation13.org/wiki/Boxstation)
 * [BoxStation (default)](https://tgstation13.org/wiki/Boxstation)
 * [MetaStation](https://tgstation13.org/wiki/MetaStation)
