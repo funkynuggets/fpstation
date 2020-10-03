@@ -1,9 +1,9 @@
-## FPStation
+## Spacepunch
 
 [![Build Status](https://travis-ci.org/brushtool/fpstation.svg?branch=master)](https://travis-ci.org/brushtool/fpstation)[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/brushtool/fpstation.svg)](http://isitmaintained.com/project/brushtool/fpstation "Average time to resolve an issue")[![Percentage of issues still open](http://isitmaintained.com/badge/open/brushtool/fpstation.svg)](http://isitmaintained.com/project/brushtool/fpstation "Percentage of issues still open")
 [![forthebadge](https://forthebadge.com/images/badges/compatibility-club-penguin.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/built-with-resentment.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/contains-technical-debt.svg)](https://forthebadge.com) [![forinfinityandbyond](https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
 
-## ABOUT (HippieStation)
+## ABOUT (Spacepunch)
 
 This is the Github page for the Spacepunch codebase, used on the Space Station 13 server. This codebase is built off the work of many different servers, primarily that of /tg/station 13.
 Because of this, the repository inherits /tg/station's licensing, among other things.
