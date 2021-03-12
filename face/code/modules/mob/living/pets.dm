@@ -10,3 +10,21 @@
 	response_help  = "pats"
 	response_disarm = "baps"
 	response_harm   = "kicks"
+
+
+/mob/living/simple_animal/pet/dog/corgi/raccoon //Reusing the corgi code. If it ain't broke, don't fix it- you feel?
+	name = "\improper raccoon"
+	real_name = "raccoon"
+	desc = "This fella doubles as the janitor when he's not on shift..."
+	unique_pet = TRUE
+	icon = 'face/icons/mob/pets.dmi'
+	icon_state = "raccoon"
+	icon_living = "raccoon"
+	icon_dead = "raccoon-dead"
+	speak = list("chitter", "Chirp!", "SQUEAL!", "AAAAAAAAAAAA")
+	speak_emote = list("snorts", "growls")
+	emote_hear = list("purrs!", "screams!", "snorts.","screech.")
+	emote_see = list("shakes its head.", "chases its tail.","shivers.")
+	response_help  = "pats"
+	response_disarm = "baps"
+	response_harm   = "kicks"
