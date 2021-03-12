@@ -9,3 +9,5 @@ AdmiralHippie = Host
 MaybeJessica = Host
 MatthewMiller = Game Admin
 KeckoDragon = Game Admin
+Mimejester = Game Admin
+Falcon343 = Game Admin

@@ -207,7 +207,7 @@ MIN_POP CLOCKWORK_CULT 15
 
 
 ## The amount of time it takes for the emergency shuttle to be called, from round start.
-SHUTTLE_REFUEL_DELAY 12000
+SHUTTLE_REFUEL_DELAY 4000
 
 ## Variables calculate how number of antagonists will scale to population.
 ## Used as (Antagonists = Population / Coeff)
