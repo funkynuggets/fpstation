@@ -79,4 +79,6 @@
 
 	"Kitty",
 
+	"Sus",
+
 	"Facepunch",)
