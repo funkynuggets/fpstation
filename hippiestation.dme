@@ -2885,7 +2885,6 @@
 #include "face\code\_globalvars\lists\objects_misc.dm"
 #include "face\code\datums\ert.dm"
 #include "face\code\datums\misc_shuttles.dm"
-#include "face\code\datums\shuttles.dm"
 #include "face\code\game\area\space_station_13_areas.dm"
 #include "face\code\game\areas\facepunch_areas.dm"
 #include "face\code\game\items\circuitboards\misc_circuitboards.dm"
