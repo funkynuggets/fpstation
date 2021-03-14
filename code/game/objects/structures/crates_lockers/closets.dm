@@ -371,7 +371,7 @@
 /obj/structure/closet/container_resist(mob/living/user)
 	if(opened)
 		return
-	if(ismovableatom(loc))
+	if(ismovable(loc))
 		user.changeNext_move(CLICK_CD_BREAKOUT)
 		user.last_special = world.time + CLICK_CD_BREAKOUT
 		var/atom/movable/AM = loc
@@ -468,8 +468,13 @@
 
 /obj/structure/closet/contents_explosion(severity, target)
 	for(var/atom/A in contents)
-		A.ex_act(severity, target)
-		CHECK_TICK
+		switch(severity)
+			if(EXPLODE_DEVASTATE)
+				SSexplosions.highobj += A
+			if(EXPLODE_HEAVY)
+				SSexplosions.medobj += A
+			if(EXPLODE_LIGHT)
+				SSexplosions.lowobj += A
 
 /obj/structure/closet/singularity_act()
 	dump_contents()
